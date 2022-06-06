@@ -1,0 +1,83 @@
+
+body{
+
+	background:url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: relative;
+	background-size: cover;　
+	
+}
+
+.rounded_img {
+	border-radius: 50%;
+	max-width: 100%;
+	height: auto;
+}
+
+.rectangle_img {
+	border-radius: 30%;
+	max-width: 100%;
+	height: auto;
+}
+
+.effect{
+	animation:blink 1s infinite;
+	font-size: 150px;
+	font-family: "Brush Script MT", cursive;
+	text-shadow: 3px 3px 6px #000000;
+}
+
+.cont{
+	
+	font-size: 70px;
+	font-family: "Copperplate", fantasy;
+	
+}
+
+h1 {
+	color: white;
+	background-color: #AEDDEF;
+	text-shadow: 3px 3px 6px #000000;
+}
+
+h4 {
+	color: white;
+	background-color: #AEDDEF;
+	text-shadow: 3px 3px 6px #000000;
+}
+
+/*超連結特效*/
+
+a:link{
+	color: green;
+}
+
+a:visited{
+	color: red;
+}
+
+/* 7. 滑鼠指標移到網頁特定位置會有 hover 所觸發的特效出現 */
+
+a:hover{
+	color: purple;
+}
+
+a:active{
+	color: blue;
+}
+
+/*排序特效*/
+
+::marker {
+	color: gray;
+	font-size: 15px;
+}
+
+@keyframes blink{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+
+}
+
+
